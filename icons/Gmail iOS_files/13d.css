@@ -1,0 +1,56 @@
+div {
+  font-family: Arial;
+}
+p {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.card {
+  border-width: 1px;
+  border-style: solid;
+  border: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+  width: 415px;
+}
+.header {
+  margin-bottom: 20px;
+  margin-left: 12px;
+  padding-top: 10px;
+  color: rgb(170, 170, 170);
+}
+.user-info {
+  display: flex;
+  flex-direction: row;
+}
+.cat {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-right: 10px;
+  margin-left: 12px;
+  margin-bottom: 30px;
+}
+.email-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.user {
+  font-weight: bold;
+  font-size: 20px;
+}
+.time-stamp {
+  color: rgb(145, 145, 145);
+}
+.subject-line {
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.text-preview {
+  color: rgb(170, 170, 170);
+  margin-bottom: 25px;
+}
